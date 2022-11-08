@@ -1,3 +1,9 @@
+import { SignInForm } from "../../components/SignInForm/SignInForm"
 export const SignInViewContainer = () => {
-    return <div>Sign In</div>
+    return(
+        <SignInForm/>
+
+    ) 
 }
+
+  

@@ -48,6 +48,15 @@ export const SignUpForm = () => {
                     value={formik.values.password}
                 />
 
+                <label htmlFor="password">Password</label>
+                <input
+                    id="password"
+                    name="password"
+                    type="text"
+                    onChange={formik.handleChange}
+                    value={formik.values.password}
+                />
+
          
 
                 <button type="submit">Submit</button>
